@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+/*Header Styles*/
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    height: 5em;
+}
+
+    /*nav styles*/
+    .header__nav{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+        /*tag ul in nav header*/
+        .nav__content-items{
+            width: 100%;
+            margin: 0 .5em;
+            display: flex;
+            justify-content: flex-end;
+        }
+            /*tags li in nav header*/
+            .items-list{
+                height: 2em;
+                list-style: none;
+                padding-right: 28px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .items-list--icon{
+                width: 1.3em;
+                height: 1.3em;
+                margin: 7px 28px 0 0;
+                background-image:url('https://image.flaticon.com/icons/png/128/17/17704.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                filter: invert(0.5);
+            }
+            
+            .items-list--photo{
+                width: 2.5em;
+                height: 2.5em;
+                margin-right: 28px;
+                background-image:url('https://lh3.googleusercontent.com/ogw/ADea4I7uu9hvRTtKV-QvddjFg68wum34gfwua49amr-sZQ=s32-c-mo');
+                background-repeat: no-repeat;
+                background-size: contain;
+                border-radius: 50%;
+                
+            }
+                /*tags a in nav header*/
+                .items-list__link{
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 15px;
+                }
+
+/*main styles*/
+
